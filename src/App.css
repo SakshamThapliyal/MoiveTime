@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background: #191A1F; /* Deep Charcoal */
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #FAFAFA; /* Main text color */
+}

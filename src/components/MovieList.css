@@ -1,0 +1,53 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+    padding: 32px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #222327; /* Lighter dark card background */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 230px;
+    color: #EEEEEE;
+}
+
+.card:hover {
+    transform: translateY(-7px) scale(1.03);
+    box-shadow: 0 12px 36px rgba(138,71,235,0.12); /* subtle purple glow */
+}
+
+.image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    background: #191A1F;
+}
+
+.content {
+    padding: 18px;
+}
+
+.content h2 {
+    font-size: 1.15rem;
+    margin: 0 0 10px 0;
+    color: #FAFAFA;
+}
+
+.year_rating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.97rem;
+    color: #CCCCCC;
+}
+
+.year_rating p:last-child {
+    color: #FFD700; /* Gold for stars/rating */
+    font-weight: 600;
+}
